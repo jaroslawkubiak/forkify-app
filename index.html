@@ -253,23 +253,54 @@
       <form class="upload">
         <div class="upload__column">
           <h3 class="upload__heading">Recipe data</h3>
-          <label>Title</label>
-          <input value="testTitle" required name="title" type="text" />
-          <label>URL</label>
-          <input value="testurl_test" required name="sourceUrl" type="text" />
-          <label>Image URL</label>
-          <input value="testimage" required name="image" type="text" />
-          <label>Publisher</label>
+          <label for="title">Title</label>
+          <input
+            id="title"
+            value="testTitle"
+            required
+            name="title"
+            type="text"
+          />
+          <label for="sourceUrl">URL</label>
+          <input
+            value="testurl_test"
+            required
+            name="sourceUrl"
+            id="sourceUrl"
+            type="text"
+          />
+          <label for="image">Image URL</label>
+          <input
+            value="testimage"
+            required
+            name="image"
+            id="image"
+            type="text"
+          />
+          <label for="publisher">Publisher</label>
           <input
             value="Jarosław Kubiak"
             required
             name="publisher"
+            id="publisher"
             type="text"
           />
-          <label>Prep time</label>
-          <input value="666" required name="cookingTime" type="number" />
-          <label>Servings</label>
-          <input value="2" required name="servings" type="number" />
+          <label for="cookingTime">Prep time</label>
+          <input
+            value="666"
+            required
+            name="cookingTime"
+            id="cookingTime"
+            type="number"
+          />
+          <label for="servings">Servings</label>
+          <input
+            value="2"
+            required
+            name="servings"
+            id="servings"
+            type="number"
+          />
         </div>
 
         <div class="upload__column">

@@ -13,9 +13,9 @@ import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 
 //parcel - zatrzymuje wyniki API po odświeżeniu strony
-if (module.hot) {
-  module.hot.accept();
-}
+// if (module.hot) {
+//   module.hot.accept();
+// }
 
 // https://forkify-api.herokuapp.com/v2
 
